@@ -1,0 +1,13 @@
+VoteUpVoteDown is a simple news discovery site where users can submit URLS, vote up or down on other urls. 
+
+Authentication is done using Facebook Connect.
+
+A simple admin panel using Backend Pro is also added at http://<your-domain>/admin with username/password as admin/admin
+
+Installation :
+
+1) Create a database and upload code.sql
+2) Setup database config on the file /backend/application/config/database.php
+3) Setup a facebook application and then fill the file /backend/application/config/facebook.php with your api key and secret key.
+4) Setup site configuration on the file /backend/application/config/config.php
+5) Setup recaptcha api keys on the file /backend/application/config/recaptcha.php
